@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+    max-width: 360px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+}
+.cube_image {
+    padding: 15px 15px;
+}
+
+.cube_image img {
+    width: 18em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.view {
+    height: 100%;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    background-color: hsl(178, 100%, 50%);
+}
+
+.view img {
+    display: none;
+    border-radius: 10px;
+}
+
+.text h2 {
+    margin-right: 1.5em;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.text h2:hover {
+    transform: scale(1.05);
+    transition: 150ms ease-in-out;
+    color: hsl(178, 100%, 50%);
+}
+
+.text p {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: hsl(180, 9%, 35%);
+    padding: 0.75em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+ul {
+    list-style-type: none;
+    align-content: center;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1em;
+}
+
+.bottom_text span {
+    color: hsl(178, 100%, 50%);
+    font-size: 12px;
+}
+
+.bottom_text a {
+    color:hsl(180, 7%, 58%);
+    font-size: 12px;
+    
+}
+
+.line {
+    width: 85%;
+    height: 1px;    
+    margin: auto;
+    background-color: hsl(180, 7%, 58%);
+}
+
+.creation {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.creation img {
+    width: 1.5em;
+}
+
+.creation span {
+    color:hsl(180, 7%, 58%);
+    margin-bottom: 2px;
+}
+
+.creation a {
+    cursor: pointer;
+    color:hsl(0, 0%, 100%);
+}
+
+.creation a:hover {
+    color: hsl(178, 100%, 50%);
+}
